@@ -1,7 +1,3 @@
-.contenu-principal{
-    display: flex;
-
-}
 
 .BtnAjoutRessource{
 
@@ -9,5 +5,7 @@
     border: none;
     margin-right: 30px;
     margin-bottom: 30px; 
-    position: sticky;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
 }
