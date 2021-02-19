@@ -1,0 +1,36 @@
+.Dossier{
+    display: flex;
+    flex-flow: column;
+    margin: 15px ;
+    box-shadow: 4px 15px 2px 0px #817e7e;
+}
+
+
+.deplacer{
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 3px;  
+    position: absolute;
+    border: none;
+    border-radius: 30px;
+    background: rgba(7, 7, 7, 0.4);
+    color: white;
+
+}
+ 
+.info{
+    margin-top: -5px;
+    color: white;
+    padding-left: 10px;
+    
+}
+
+.Dossier button{
+    align-self: flex-end;
+    z-index: 10;
+    margin-top: -40px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
